@@ -4,10 +4,5 @@ const menuLoaded = (newMenu) => {
     payload: newMenu,
   };
 };
-const menuRequested = () => {
-  return {
-    type: "MENUE_REQUESTED",
-  };
-};
 
-export { menuLoaded, menuRequested };
+export { menuLoaded };
